@@ -1,0 +1,87 @@
+[
+    {
+        "id": 4,
+        "nombreSuperHeroe": "Hulk",
+        "nombreReal": "Bruce Banner",
+        "nombreSociedad": "Vengadores",
+        "edad": 40,
+        "planetaOrigen": "Tierra",
+        "debilidad": "Furia incontrolable",
+        "poder": [
+            "Super fuerza",
+            "Regeneraci\u00f3n"
+        ],
+        "habilidadEspecial": "Transformaci\u00f3n en gigante verde",
+        "aliado": [
+            "Thor",
+            "Iron Man"
+        ],
+        "enemigo": [
+            "Abominaci\u00f3n"
+        ]
+    },
+    {
+        "id": 5,
+        "nombreSuperHeroe": "Black Widow",
+        "nombreReal": "Natasha Romanoff",
+        "nombreSociedad": "Vengadores",
+        "edad": 35,
+        "planetaOrigen": "Tierra",
+        "debilidad": "No posee superpoderes",
+        "poder": [
+            "Experta en artes marciales",
+            "Habilidad con armas"
+        ],
+        "habilidadEspecial": "Espionaje",
+        "aliado": [
+            "Hawkeye",
+            "Capit\u00e1n Am\u00e9rica"
+        ],
+        "enemigo": [
+            "Red Room"
+        ]
+    },
+    {
+        "id": 6,
+        "nombreSuperHeroe": "Doctor Strange",
+        "nombreReal": "Stephen Strange",
+        "nombreSociedad": "Vengadores",
+        "edad": 45,
+        "planetaOrigen": "Tierra",
+        "debilidad": "Poderes limitados sin la capa o los artefactos",
+        "poder": [
+            "Magia",
+            "Manipulaci\u00f3n del tiempo",
+            "Viaje entre dimensiones"
+        ],
+        "habilidadEspecial": "Maestro de las artes m\u00edsticas",
+        "aliado": [
+            "Wong",
+            "Spiderman"
+        ],
+        "enemigo": [
+            "Dormammu"
+        ]
+    },
+    {
+        "id": 7,
+        "nombreSuperHeroe": "Scarlet Witch",
+        "nombreReal": "Wanda Maximoff",
+        "nombreSociedad": "Vengadores",
+        "edad": 30,
+        "planetaOrigen": "Tierra",
+        "debilidad": "Inestabilidad emocional",
+        "poder": [
+            "Magia del caos",
+            "Manipulaci\u00f3n de la realidad"
+        ],
+        "habilidadEspecial": "Control mental",
+        "aliado": [
+            "Vision",
+            "Doctor Strange"
+        ],
+        "enemigo": [
+            "Agatha Harkness"
+        ]
+    }
+]

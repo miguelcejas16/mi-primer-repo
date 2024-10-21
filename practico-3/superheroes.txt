@@ -1,0 +1,151 @@
+[
+  {
+    "id": 1,
+    "nombreSuperHeroe": "Spiderman",
+    "nombreReal": "Peter Parker",
+    "nombreSociedad": "Vigilante",
+    "edad": 25,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Radioactividad",
+    "poder": [
+      "Trepar paredes",
+      "Sentido arácnido",
+      "Super fuerza",
+      "Agilidad"
+    ],
+    "habilidadEspecial": "Redes de telaraña",
+    "aliado": [
+      "Iron Man"
+    ],
+    "enemigo": [
+      "Duende Verde"
+    ]
+  },
+  {
+    "id": 2,
+    "nombreSuperHeroe": "Iron Man",
+    "nombreReal": "Tony Stark",
+    "nombreSociedad": "Vengadores",
+    "edad": 45,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Corazón artificial",
+    "poder": [
+      "Traje de alta tecnología",
+      "Inteligencia extraordinaria"
+    ],
+    "habilidadEspecial": "Armadura avanzada",
+    "aliado": [
+      "Spiderman",
+      "Thor"
+    ],
+    "enemigo": [
+      "Mandarín"
+    ]
+  },
+  {
+    "id": 3,
+    "nombreSuperHeroe": "Thor",
+    "nombreReal": "Thor Odinson",
+    "nombreSociedad": "Vengadores",
+    "edad": 1000,
+    "planetaOrigen": "Asgard",
+    "debilidad": "Sin su martillo Mjolnir",
+    "poder": [
+      "Dios del trueno",
+      "Super fuerza",
+      "Vuelo"
+    ],
+    "habilidadEspecial": "Controlar rayos",
+    "aliado": [
+      "Iron Man"
+    ],
+    "enemigo": [
+      "Loki"
+    ]
+  },
+  {
+    "id": 4,
+    "nombreSuperHeroe": "Hulk",
+    "nombreReal": "Bruce Banner",
+    "nombreSociedad": "Vengadores",
+    "edad": 40,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Furia incontrolable",
+    "poder": [
+      "Super fuerza",
+      "Regeneración"
+    ],
+    "habilidadEspecial": "Transformación en gigante verde",
+    "aliado": [
+      "Thor",
+      "Iron Man"
+    ],
+    "enemigo": [
+      "Abominación"
+    ]
+  },
+  {
+    "id": 5,
+    "nombreSuperHeroe": "Black Widow",
+    "nombreReal": "Natasha Romanoff",
+    "nombreSociedad": "Vengadores",
+    "edad": 35,
+    "planetaOrigen": "Tierra",
+    "debilidad": "No posee superpoderes",
+    "poder": [
+      "Experta en artes marciales",
+      "Habilidad con armas"
+    ],
+    "habilidadEspecial": "Espionaje",
+    "aliado": [
+      "Hawkeye",
+      "Capitán América"
+    ],
+    "enemigo": [
+      "Red Room"
+    ]
+  },
+  {
+    "id": 6,
+    "nombreSuperHeroe": "Doctor Strange",
+    "nombreReal": "Stephen Strange",
+    "nombreSociedad": "Vengadores",
+    "edad": 45,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Poderes limitados sin la capa o los artefactos",
+    "poder": [
+      "Magia",
+      "Manipulación del tiempo",
+      "Viaje entre dimensiones"
+    ],
+    "habilidadEspecial": "Maestro de las artes místicas",
+    "aliado": [
+      "Wong",
+      "Spiderman"
+    ],
+    "enemigo": [
+      "Dormammu"
+    ]
+  },
+  {
+    "id": 7,
+    "nombreSuperHeroe": "Scarlet Witch",
+    "nombreReal": "Wanda Maximoff",
+    "nombreSociedad": "Vengadores",
+    "edad": 30,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Inestabilidad emocional",
+    "poder": [
+      "Magia del caos",
+      "Manipulación de la realidad"
+    ],
+    "habilidadEspecial": "Control mental",
+    "aliado": [
+      "Vision",
+      "Doctor Strange"
+    ],
+    "enemigo": [
+      "Agatha Harkness"
+    ]
+  }
+]
