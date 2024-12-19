@@ -1,0 +1,49 @@
+<h1>Listado de Superhéroes</h1>
+
+<% if (superheroes.length === 0) { %>
+  <p>No hay superhéroes registrados aún.</p>
+<% } else { %>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre del Superhéroe</th>
+        <th>Nombre Real</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% superheroes.forEach((superheroe) => { %>
+        <tr>
+          <td><%= superheroe.id %></td>
+          <td><%= superheroe.nombreSuperHeroe %></td>
+          <td><%= superheroe.nombreReal %></td>
+          <td>
+            <a href="/api/heroes/<%= superheroe._id %>/edit">Editar</a> | 
+            <button onclick="confirmarEliminacion('<%= superheroe._id %>')">Eliminar</button>
+          </td>
+        </tr>
+      <% }) %>
+    </tbody>
+  </table>
+<% } %>
+
+<script>
+  function confirmarEliminacion(id) {
+    if (confirm("¿Estás seguro de que deseas eliminar este superhéroe?")) {
+      fetch(`/api/heroes/eliminar/${id}`, { method: 'DELETE' })
+        .then((response) => {
+          if (response.ok) {
+            alert("Superhéroe eliminado correctamente.");
+            window.location.reload(); // Recarga el dashboard
+          } else {
+            alert("Hubo un error al eliminar el superhéroe.");
+          }
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+          alert("Hubo un problema al eliminar el superhéroe.");
+        });
+    }
+  }
+</script>

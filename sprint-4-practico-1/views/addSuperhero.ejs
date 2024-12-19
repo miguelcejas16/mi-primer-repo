@@ -1,0 +1,56 @@
+<h1>Agregar Nuevo Superhéroe</h1>
+<form action="/api/heroes/agregar" method="POST">
+<!-- Nombre del superhéroe -->
+<div>
+    <label for="nombreSuperHeroe">Nombre del Superhéroe:</label>
+    <input type="text" id="nombreSuperHeroe" name="nombreSuperHeroe" required minlength="3" maxlength="60" />
+</div>
+
+<!-- Nombre real -->
+<div>
+    <label for="nombreReal">Nombre Real:</label>
+    <input type="text" id="nombreReal" name="nombreReal" required minlength="3" maxlength="60" />
+</div>
+
+<!-- Edad -->
+<div>
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" required min="0" />
+</div>
+
+<!-- Planeta de origen -->
+<div>
+    <label for="planetaOrigen">Planeta de Origen:</label>
+    <input type="text" id="planetaOrigen" name="planetaOrigen" maxlength="60" placeholder="Desconocido" />
+</div>
+
+<!-- Debilidad -->
+<div>
+    <label for="debilidad">Debilidad:</label>
+    <input type="text" id="debilidad" name="debilidad" maxlength="60" />
+</div>
+
+<!-- Poderes -->
+<div>
+    <label for="poderes">Poderes:</label>
+    <textarea id="poderes" name="poderes" required></textarea>
+    <small>Separa los poderes por comas.</small>
+</div>
+
+<!-- Aliados -->
+<div>
+    <label for="aliados">Aliados:</label>
+    <textarea id="aliados" name="aliados"></textarea>
+    <small>Separa los aliados por comas.</small>
+</div>
+
+<!-- Enemigos -->
+<div>
+    <label for="enemigos">Enemigos:</label>
+    <textarea id="enemigos" name="enemigos"></textarea>
+    <small>Separa los enemigos por comas.</small>
+</div>
+
+<button type="submit">Agregar Superhéroe</button>
+</form>
+
