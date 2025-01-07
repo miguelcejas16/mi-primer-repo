@@ -7,7 +7,7 @@ export class CountryRepository extends IRepository {
         try {
             return await Country.find({});
         } catch (error) {
-            console.error("Error al obtener paises", error)
+            console.error("Error al obtener paises en el repositorio", error)
             throw error
         }
     }
@@ -16,7 +16,7 @@ export class CountryRepository extends IRepository {
         try {
             return await Country.insertMany(data);
         } catch (error) {
-            console.error("Error al crear paises", error)
+            console.error("Error al crear paises en el repositorio", error)
             throw error
         }
     }

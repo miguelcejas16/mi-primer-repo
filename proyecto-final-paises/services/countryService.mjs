@@ -35,7 +35,7 @@ const procesarPaises = async () => {
 
         return paisesModificados; // Retorna los países modificados
     } catch (error) {
-        console.error('Error al procesar los países:', error);
+        console.error('Error al procesar los países en el servicio', error);
         throw error; // Re-lanza el error para que se maneje en el controlador
     }
 };
@@ -44,7 +44,7 @@ export const getCountries = async () => {
     try {
         return await countryRepository.getAll();
     } catch (error) {
-        console.error("Error en el servicio al obtener paises", error)
+        console.error("Error en el servicio al obtener paises en el servicio", error)
         throw error
     }
 };
@@ -53,7 +53,7 @@ export const createCountries = async (countries) => {
     try {
         return await countryRepository.create(countries)
     } catch (error) {
-        console.error("Error en el servicio al crear paises", error)
+        console.error("Error en el servicio al crear paises en el servicio", error)
         throw error
     }
 }
@@ -63,7 +63,7 @@ export const loadAndCreateCountries = async () => {
         const processedCountries = await procesarPaises();
         return await countryRepository.create(processedCountries);
     } catch (error) {
-        console.error("Error en el servicio al cargar y crear paises", error)
+        console.error("Error en el servicio al cargar y crear paises en el servicio", error)
         throw error
     }
 }
